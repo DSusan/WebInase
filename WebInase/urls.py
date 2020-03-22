@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('apps.documento.urls', namespace="documento")),
     url(r'^', include('apps.proyectos.urls', namespace="proyecto")),
+    url(r'^', include('apps.investigaciones.urls', namespace="investigaciones")),
 ]
