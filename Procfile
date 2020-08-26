@@ -1,1 +1,1 @@
-web: gunicorn webinase.wsgi
+web: gunicorn WebInase.wsgi
