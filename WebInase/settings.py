@@ -124,4 +124,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "WebInase/media")
 MEDIA_URL = '/MEDIA/'
+django_heroku.settings(locals())
 
